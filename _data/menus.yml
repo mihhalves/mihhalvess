@@ -1,21 +1,21 @@
 main:
-  - name: "Services"
+  - name: "Advocacia"
     url: "/services/"
     weight: 2
-  - name: "Team"
+  - name: "Contabilidade"
     url: "/team/"
     weight: 3
-  - name: "About"
+  - name: "Sobre nós"
     url: "/about/"
     weight: 4
-  - name: "Contact"
+  - name: "Contato"
     url: "/contact/"
     weight: 5
 
 footer:
-  - name: "Home"
+  - name: "Início"
     url: "/"
     weight: 1
-  - name: "Contact"
+  - name: "Contato"
     url: "/contact/"
     weight: 2
