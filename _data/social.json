@@ -1,22 +1,33 @@
 [
   {
-    "name": "Email",
-    "link": "mailto:seu_email@example.com",
-    "image": "images/social/email.svg"
+    "name": "Github",
+    "link": "https://github.com/zerostaticthemes/jekyll-serif-theme",
+    "image": "images/social/github.svg"
   },
   {
-    "name": "Telefone",
-    "link": "tel:11957981540",
-    "image": "images/social/telefone.svg"
+    "name": "Twitter",
+    "link": "https://twitter.com/zerostaticio",
+    "image": "images/social/twitter.svg"
   },
   {
-    "name": "WhatsApp",
-    "link": "https://api.whatsapp.com/send?phone="+5511957981540,
-    "image": "images/social/whatsapp.svg"
+      "name": "Facebook",
+      "link": "https://facebook.com",
+      "image": "images/social/facebook.svg"
   },
   {
-    "name": "LinkedIn",
-    "link": "https://www.linkedin.com/",
-    "image": "images/social/linkedin.svg"
+      "name": "Email",
+      "link": "mailto:ekyllserif@example.com ",
+      "image": "images/social/email.svg"
+  },
+  {
+      "name": "Instagram",
+      "link": "https://instagram.com",
+      "image": "images/social/instagram.svg"
+  },
+  {
+      "name": "Discord",
+      "link": "https://discord.com",
+      "image": "images/social/discord.svg"
   }
+
 ]
