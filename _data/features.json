@@ -1,27 +1,27 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients receive an obligation free consultation.",
+    "title": "Profissional Especializado",
+    "description": "Nosso escritório atua com muita dedicação. Isso significa que dedicamos todas nossas energias para entregar solução e tranquilidade àqueles que precisam do nosso apoio.",
     "image": {
-      "url": "images/features/noun_branding_1885335.svg",
+      "url": "images/features/medalha.jpeg",
       "width": 80,
       "height": 80
     }
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
+    "title": "Atendimento Personalizado",
+    "description": "Você não é – e nunca será – apenas mais um cliente. Cada história importa e nós sentimos na pele a dor de nossos clientes. Receba atendimento individualizado e humanizado.",
     "image": {
-      "url": "images/features/noun_The Process_1885341.svg",
+      "url": "images/features/maos.png",
       "width": 80,
       "height": 80
     }
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
+    "title": "Acompanhamento Integral",
+    "description": "Nós não deixamos você na mão. Vamos até o final para te trazer a melhor solução, independentemente de quão longo seja o caminho. Entre em contato agora mesmo!",
     "image": {
-      "url": "images/features/noun_3d modeling_1885342.svg",
+      "url": "images/features/conversa.png",
       "width": 80,
       "height": 80
     }
