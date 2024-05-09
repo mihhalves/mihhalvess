@@ -20,8 +20,29 @@ bodyClass: "page-home"
     </div>
   </div>
 </div>
+<!-- <div class="strip"> -->
+  <!-- <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Descrição maravilhosa"/>
+    <title>Meu site lindo</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
+</head> -->
 
-<div class="strip">
+    <!-- <form id="contact-form" target="_self" method="post" action="mailto:michelle.selva@gmail.com">
+        <input required placeholder="nome" type="text" name="name"><br/>
+        <input required placeholder="e-mail" type="email" name="email"><br/>
+        <input required placeholder="assunto" type="text" name="subject"><br/>
+        <textarea required 
+                  maxlength="2500" 
+                  placeholder="mensagem" 
+                  name="message" 
+                  rows='20'>
+        </textarea><br/>
+        <input type="submit">
+    </form>
+
+</div> -->
+<!-- <div class="strip">
   <div class="container pt-6 pb-6 pb-md-10">
     <div class="row justify-content-start">
       {% assign limit = site.home.limit_services | default: 6 %}
@@ -29,7 +50,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-4 mb-1">
         <div class="service service-summary">
           <div class="service-content">
-            <h2 class="service-title">
+            <h2 class="service-title text-orange">
               <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
             </h2>
             <p>{{ service.excerpt | markdownify | strip_html | truncate: 100 }}</p>
@@ -40,11 +61,11 @@ bodyClass: "page-home"
     </div>
     <div class="row justify-content-center">
       <div class="col-auto">
-        <a class="button button-primary" href="{{ "services" | relative_url }}">View All Services</a>
+        <a class="button button-primary" href="{{ "services" | relative_url }}">Todos os serviços</a>
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 {% if site.data.features %}
 <div class="strip strip-grey">
