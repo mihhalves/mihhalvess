@@ -1,16 +1,19 @@
 ---
-title: Contact
+title: Contato
 layout: contact
 description: Contact
 ---
 
-Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.
+O escritório está localizado na Av. Paulista, nº 1471, Conj. 511, CEP: 01311-927, Bela Vista, São Paulo. Para melhor atendê-lo, solicitamos que agende sua visita conosco nos seguintes horários:
 
-| Day       | Opening Hours   |
+
+
+| Dia       | horário de funcionamento  |
 | --------- | --------------- |
-| Tuesday   | 8:30am - 5:00pm |
-| Wednesday | 8:30am - 5:00pm |
-| Thursday  | 8:30am - 5:00pm |
-| Friday    | 8:30am - 5:00pm |
-| Saturday  | 10:am - 4:00pm  |
-| Saturday  | Closed          |
+| Segunda   | 9:00am - 6:00pm |
+| Terça     | 9:00am - 6:00pm |
+| Quarta    | 9:00am - 6:00pm |
+| Quinta    | 9:00am - 6:00pm |
+| Sexta     | 9:00am - 6:00pm         |
+| Sábado    | Fechado          |
+| Domingo   | Fechado          |
