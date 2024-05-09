@@ -1,5 +1,17 @@
-<div class="social">
+<!-- <div class="social">
   {% for item in site.data.social %}
     <a href="{{ item.link }}" target="blank"><img src="{{ item.image | relative_url }}" title="{{ item.name }}" alt="{{ item.name }}" /></a>
   {% endfor %}
+</div> -->
+<div class="social">
+  {% for item in site.data.social %}
+    <a href="{{ item.link }}" target="_blank" rel="noopener noreferrer">
+      <img src="{{ item.image | relative_url }}" title="{{ item.name }}" alt="{{ item.name }}" />
+    </a>
+  {% endfor %}
+  
+  <!-- Adicione o include do ícone do WhatsApp -->
+  {% include whatsapp_icon.html %}
+    <!-- Adicione o include do ícone do telefone -->
+    {% include telefone_icon.html %}
 </div>
