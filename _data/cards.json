@@ -1,0 +1,56 @@
+[
+  {
+    "title": "EMPRESARIAL",
+    "description": "Oferecemos suporte jurídico especializado para empresas, visando garantir soluções eficazes e tranquilidade para nossos clientes em suas atividades comerciais.",
+    "image": {
+      "url": "images/features/medalha.jpeg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "CIVIL",
+    "description": "Nosso compromisso é tratar cada cliente de forma única e empática, oferecendo atendimento personalizado para resolver questões jurídicas civis com sensibilidade e profissionalismo.",
+    "image": {
+      "url": "images/features/maos.png",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "CRIMINAL",
+    "description": " Estamos ao seu lado em situações jurídicas criminais, fornecendo suporte completo e comprometido para defender seus direitos e buscar a melhor solução para sua situação.",
+    "image": {
+      "url": "images/features/conversa.png",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "CONSUMIDOR ",
+    "description": " Protegemos os direitos dos consumidores com dedicação e expertise, buscando soluções justas e eficientes para questões relacionadas a produtos e serviços.",
+    "image": {
+      "url": "images/features/conversa.png",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "FAMÍLIA E SUCESSÕES",
+    "description": " Compreendemos a importância das questões familiares e sucessórias e estamos aqui para oferecer suporte jurídico especializado e soluções sensíveis para as necessidades de nossos clientes.",
+    "image": {
+      "url": "images/features/conversa.png",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "TRABALHISTA ",
+    "description": " Auxiliamos trabalhadores e empregadores em questões trabalhistas, oferecendo orientação legal sólida e representação dedicada para resolver disputas e proteger direitos no ambiente de trabalho.",
+    "image": {
+      "url": "images/features/conversa.png",
+      "width": 80,
+      "height": 80
+    }
+  }
+]
