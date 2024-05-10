@@ -1,7 +1,7 @@
 main:
-  - name: "Advocacia"
-    url: "/services/"
-    weight: 2
+  # - name: "Advocacia"
+  #   url: "/services/"
+  #   weight: 6
   - name: "Contabilidade"
     url: "/team/"
     weight: 3
@@ -11,6 +11,10 @@ main:
   - name: "Contato"
     url: "/contact/"
     weight: 5
+    name: Advocacia
+    url: "/advocacia/"
+    weight: 2
+    
 
 footer:
   - name: "Início"
