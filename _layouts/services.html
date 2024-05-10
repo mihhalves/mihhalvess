@@ -18,7 +18,9 @@ bodyClass: "page-services"
   </div>
 </div>
 
-<div class="container pt-6 pb-6">
+<div class="titulo"><h1 class="letra">ÁREAS DE ATUAÇÃO</h1> </div>
+
+<!-- <div class="container pt-6 pb-6">
   <div class="row">
     {% for service in site.services %}
     <div class="col-12 col-md-6 mb-3">
@@ -33,4 +35,26 @@ bodyClass: "page-services"
     </div>
     {% endfor %}
   </div>
+</div> -->
+{% if site.data.cards %}
+<div class="strip strip-grey">
+  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+    <div class="row justify-content-center">
+
+      {% for feature in site.data.cards %}
+      <div class="col-12 col-md-6 col-lg-4 mb-2">
+        <div class="feature">
+          {% if feature.image %}
+          <div class="feature-image"><img alt="{{ cards.title }} logo" src="{{ feature.image.url | relative_url }}" width="{{ feature.image.width }}" height="{{ feature.image.height }}" /></div>
+          {% endif %}
+          <h2 class="feature-title">{{ feature.title }}</h2>
+          <div class="feature-content">{{ feature.description }}</div>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
 </div>
+{% endif %}
+
