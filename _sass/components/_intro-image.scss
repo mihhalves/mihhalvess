@@ -30,6 +30,6 @@
 .intro-image-hide-mobile {
   display: none;
   @include media-breakpoint-up(md) {
-    display: block;
+    display: none;
   }
 }
