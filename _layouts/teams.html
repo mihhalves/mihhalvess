@@ -18,45 +18,43 @@ bodyClass: "page-teams"
     </div>
 </div>
 
-<div class="container pt-6 pb-6">
-    <div class="row">
-        {% assign promoted_teams = site.team | where: "promoted", true | sort: "weight" %}
-        {% for team in promoted_teams %}
-        <div class="col-12 col-md-6 mb-2">
-            <div class="team team-summary team-summary-large">
-                {% if team.image %}
-                <div class="team-image">
-                    <img width="90" height="90" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
-                </div>
-                {% endif %}
-                <div class="team-meta">
-                    <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
-                    <p class="team-description">{{ team.jobtitle }}</p>
-                    {% if team.linkedinurl %}
-                    <a target="_blank" href="{{ team.linkedinurl }}" rel="noreferrer">LinkedIn</a>
-                    {% endif %}
-                </div>
-                <div class="team-content">{{ team.excerpt | truncate: 120 }}</div>
-            </div>
+<div class="titulo"><h1 class="letra">ÁREAS DE ATUAÇÃO</h1> </div>
+
+<!-- <div class="container pt-6 pb-6">
+  <div class="row">
+    {% for service in site.services %}
+    <div class="col-12 col-md-6 mb-3">
+      <div class="service service-summary">
+        <div class="service-content">
+          <h2 class="service-title">
+            <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
+          </h2>
+          <p>{{ service.excerpt | markdownify | strip_html | truncate: 100 }}</p>
         </div>
-        {% endfor %}
+      </div>
     </div>
-    <div class="row pt-6 pb-6">
-        {% assign teams = site.team | where: "promoted", empty | sort: "weight" %}
-        {% for team in teams %}
-        <div class="col-12 col-md-4 mb-3">
-            <div class="team team-summary">
-                {% if team.image %}
-                <div class="team-image">
-                    <img width="60" height="60" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
-                </div>
-                {% endif %}
-                <div class="team-meta">
-                    <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
-                    <p class="team-description">{{ team.jobtitle }}</p>
-                </div>
-            </div>
+    {% endfor %}
+  </div>
+</div> -->
+{% if site.data.cards %}
+<div class="strip strip-grey">
+  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+    <div class="row justify-content-center">
+
+      {% for feature in site.data.cards %}
+      <div class="col-12 col-md-6 col-lg-4 mb-2">
+        <div class="feature">
+          {% if feature.image %}
+          <div class="feature-image"><img alt="{{ cards.title }} logo" src="{{ feature.image.url | relative_url }}" width="{{ feature.image.width }}" height="{{ feature.image.height }}" /></div>
+          {% endif %}
+          <h2 class="feature-title">{{ feature.title }}</h2>
+          <div class="feature-content">{{ feature.description }}</div>
         </div>
-        {% endfor %}
+      </div>
+      {% endfor %}
+
     </div>
+  </div>
+</div>
+{% endif %}
 </div>
