@@ -1,9 +1,10 @@
 [
   {
     "title": "Profissional Especializado",
-    "description": "Nosso escritório atua com muita dedicação. Isso significa que dedicamos todas nossas energias para entregar solução e tranquilidade àqueles que precisam do nosso apoio.",
+    "description": "Nosso escritório é comprometido com a excelência. Dedicamos toda nossa energia para oferecer soluções eficazes e proporcionar tranquilidade aos nossos clientes que necessitam de nosso suporte.
+    ",
     "image": {
-      "url": "images/features/medalha.jpeg",
+      "url": "images/features/medalha.jpg",
       "width": 80,
       "height": 80
     }
