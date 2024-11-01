@@ -1,3 +1,5 @@
+@import "../../app.scss";
+
 .sidebar {
     display: flex;
     flex-direction: column;
@@ -14,7 +16,13 @@
         width: 400px; 
         bottom: 0;
         background-color: white;
-        z-index: 9;
+        z-index: 10;
+
+        @include mobile {
+            width: 200px;
+        }
+        
+        }
         
 
         .links {
@@ -31,10 +39,15 @@
 
             a {
                 font-size: 40px;
+
+                @include mobile {
+                    font-size: 20px;
+                }
             }
         }
     }
-}
+    
+
 
 
 .toggle-button {

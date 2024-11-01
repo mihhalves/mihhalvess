@@ -11,7 +11,7 @@ const Navbar = () => {
                  animate={{opacity:1, scale:1}} 
                  transition={{ duration:2}}
                  whileHover={{opacity:1, scale:2}}>
-                    Raimundas
+                  
                     </motion.span>
                 <div className="social">
                     <a href="#"> <img src="/facebook.png" alt=""/></a>
