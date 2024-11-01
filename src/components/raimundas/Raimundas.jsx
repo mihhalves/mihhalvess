@@ -39,7 +39,7 @@ const Raimundas = () => {
           initial="initial" 
           animate="animate"
         >
-          <motion.h2 variants={textVariants}>Agência de marketing</motion.h2>
+          <motion.h2 variants={textVariants}>MARKETING DIGITAL</motion.h2>
           <motion.h1 variants={textVariants}>Desperte todo o potencial da sua marca!</motion.h1>
           <motion.div variants={textVariants} className="buttons">
             <motion.button variants={textVariants}>Fale Conosco</motion.button>
@@ -47,8 +47,8 @@ const Raimundas = () => {
           </motion.div>
         </motion.div>
       </div>
-      <motion.div className="slidingTextContainer" variants={sliderVariants} initial="innitial" animate="animate">
-        Força digital
+      <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">
+        RAIMUNDAS
       </motion.div>
       <div className="imageContainer">
         <img src="/michelle.png" alt=""/>
